@@ -1,0 +1,142 @@
+<html>
+   <head><title>Book table</title>
+   <style>
+     body{background-image:url("img/44.jpg");
+	 }
+	#id6{
+	 
+      width:550px;
+      margin-left:600px;
+      margin-top:30px;
+      position:absolute;
+      z-index:200; 
+    } 
+	#id16{
+   margin-top:30px;
+   }
+   
+   body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+	font-style:italic;
+	
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#id8{
+   margin-top:620px;
+}
+
+   </style>
+   </head>
+   <body>
+   <div id="id6"><fieldset>
+	   <legend><font color="white" size="10px"><i><b>Book table</b></i></font></legend>
+	   <form metthod="post" action="process.php">
+	   <font color="white" size="5px"><i><b>Name:</b></i></font><br/>
+	        <input type="text" name="uname" value="" placeholder="Enter your name" required autofocus />
+			<br/>
+			
+		<font color="white" size="5px"><i><b>For:</b></i></font><br/>
+		<input type="radio" name="guantity" value="family" required /><font color="white" size="5px"><i><b>Family</b></i></font>
+		<input type="radio" name="guantity" value="couple" required /><font color="white" size="5px"><i><b>Couple</b></i></font>
+		<input type="radio" name="guantity" value="single" required /><font color="white" size="5px"><i><b>Single</b></i></font>
+		<br/>
+		
+		<font color="white" size="5px"><i><b>Member:</b></i></font><br/>
+	    <input type="text" id="member" name="member" value=""
+	    placeholder="Enter no. of members" required />
+		<br/>
+		
+	    <font color="white" size="5px"><i><b>Date:</b></i></font><br/>
+	    <input type="date" name="Date" required />
+		<br/>
+		
+		<font color="white" size="5px"><i><b>Table:</b></i></font><br/>
+		<select name="Utype" size="1">
+		    <option value="0">Table-</option>
+		    <option value="1">VIP table</option>
+			<option value="2">Normal table</option>
+			<option value="3">Sea facing Table</option>
+		</select>
+		&emsp;&emsp;
+		<select name="Utype" size="1">
+		    <option value="0">Lighting-</option>
+		    <option value="1">Moon light</option>
+			<option value="2">Candle light</option>
+			<option value="3">Normal</option>
+		</select>
+		&emsp;&emsp;
+		<select name="Utype" size="1">
+		    <option value="0">Music-</option>
+		    <option value="1">Soft</option>
+			<option value="2">Romantic</option>
+			<option value="3">Rock</option>
+			<option value="4">No</option>
+		</select>
+	    <br/>
+		
+		<font color="white" size="5px"><i><b>Mobile:</b></i></font><br/>
+	    <input type="text" id="mob" name="mob" value=""
+	    placeholder="Enter your mobile number" required />
+	    <br/>
+		
+		<font color="white" size="5px"><i><b>Enquiry:</b></i></font><br/>
+		<textarea name="enquiry" cols="30" rows="2"></textarea>
+		<br/>
+		<select name="Utype" size="1">
+		    <option value="0">Select location-</option>
+		    <option value="1">Jalandhar</option>
+			<option value="2">Amritsar</option>
+			<option value="3">Ludhiana</option>
+			<option value="4">Chandigarh</option>
+			<option value="5">Mohali</option>
+			<option value="6">Phagwara</option>
+			<option value="7">Sangrur</option>
+		</select>
+		<br/>
+		<input type="reset" value="Reset"/>&emsp;&emsp;&emsp;&emsp;
+		<input type="reset" value="Book" onclick="alert('You have successfully booked.')"/>
+		</form>
+		</fieldset>
+	</div>
+	<div id="id16">
+<ul>
+  <li><a href="Main page.html">Home</a></li>
+  <li><a href="Menu.html">Menu card</a></li>
+  <li><a href="gallary.html">Image gallary</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="booking.html">Book table</a></li>
+  <li><a href="restaurent sign up.html">Get in Touch</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+</div>
+<br/>
+<div id="id8">
+		<marquee direction="right" behavior="unidirection"
+               scrollamount="7"><font size="30px" color="white"><h7><i><b>“Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.”</b></i></font></h7>
+	    </marquee>
+	    </div>
+   </body>
+</html>

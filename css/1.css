@@ -1,0 +1,32 @@
+#id1{ 
+   
+   height:100px;
+   width:10px;
+   margin-left:500px;
+   margin-top:440px;
+   position:absolute;
+   z-index:200;
+     }
+#id2{
+   height:86px;
+   width:100px;
+   margin-left:600px;
+   margin-top:500px;
+   position:absolute;
+   z-index:200;
+  }
+p.a{
+      font-style:oblique;
+      font-size:100px;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+      }
+#id0{
+      margin-left:500px;
+      margin-top:150px;
+      position:absolute;
+      z-index:200;  
+     } 
+
+
+

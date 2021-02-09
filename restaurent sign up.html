@@ -1,0 +1,123 @@
+<html>
+   <head><title>Restaurent1</title>
+   <style>
+     body{background-image:url("img/44.jpg");
+	 }
+	#id6{
+	 
+      width:350px;
+      margin-left:600px;
+      margin-top:50px;
+      position:absolute;
+      z-index:200; 
+    } 
+	#id16{
+   margin-top:30px;
+   }
+   
+   body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+	font-style:italic;
+	
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#id8{
+   margin-top:620px;
+}
+
+   </style>
+   </head>
+   <body>
+   <div id="id6"><fieldset>
+	   <legend><font color="white" size="10px"><i><b>Get in Touch</b></i></font></legend>
+	   <form metthod="post" action="process.php">
+	   <font color="white" size="5px"><i><b>Name:</b></i></font><br/>
+	        <input type="text" name="uname" value="" placeholder="Enter your name" required autofocus />
+			<br/>
+			&emsp;
+			<br/>
+       <font color="white" size="5px"><i><b>Email:</b></i></font><br/>
+		<input type="email" name="email" value="" placeholder="email@address.com" required />
+		<br/>
+		&emsp;
+		<br/>
+		<input type="radio" name="gender" value="Male" required /><font color="white" size="5px"><i><b>Male</b></i></font>
+		<input type="radio" name="gender" value="Female" required /><font color="white" size="5px"><i><b>Female</b></i></font>
+		<br/>
+		&emsp;
+		<br/>
+		<font color="white" size="5px"><i><b>Mobile:</b></i></font><br/>
+	    <input type="text" id="mob" name="mob" value=""
+	    placeholder="Enter your mobile number" required />
+	    <br/>
+		&emsp;
+		</br>
+		<font color="white" size="5px"><i><b>Enquiry:</b></i></font><br/>
+		<textarea name="enquiry" cols="30" rows="2"></textarea>
+		<br/>
+		&emsp;
+		</br>
+		<select name="Utype" size="1">
+		    <option value="0">Select location-</option>
+		    <option value="1">Jalandhar</option>
+			<option value="2">Amritsar</option>
+			<option value="3">Ludhiana</option>
+			<option value="4">Chandigarh</option>
+			<option value="5">Mohali</option>
+			<option value="6">Phagwara</option>
+			<option value="7">Sangrur</option>
+		</select>
+		<br/>
+		&emsp;
+		<br/>
+		<input type="reset" value="Reset"/>&emsp;&emsp;&emsp;&emsp;
+		<input type="reset" value="login" onclick="alert('You have successfully sign up.')"/>
+		</form>
+		</fieldset>
+	</div>
+	<div id="id16">
+<ul>
+  <li><a href="Main page.html">Home</a></li>
+  <li><a href="Menu.html">Menu card</a></li>
+  <li><a href="gallary.html">Image gallary</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="booking.html">Book table</a></li>
+  <li><a href="restaurent sign up.html">Get in Touch</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+</div>
+<br/>
+<div id="id8">
+		<marquee direction="right" behavior="unidirection"
+               scrollamount="7"><font size="30px" color="white"><h7><i><b>“Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.”</b></i></font></h7>
+	    </marquee>
+	    </div>
+   </body>
+</html>
